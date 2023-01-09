@@ -1,0 +1,17 @@
+name: Example access
+message: |
+  Hi, can you give me the following access, please?
+
+  {{form}}
+
+  Signature.
+fields:
+  - name: Username
+    required: true
+    default: me@example.com
+  - name: Permission
+    required: false
+sendto:
+  - name: debug
+    contacts:
+      - contact@example.com
