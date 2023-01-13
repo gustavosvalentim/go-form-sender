@@ -21,7 +21,3 @@ Submit a form
 `go-form-sender send <form-name>`
 
 This command will ask you to fill the form before sending.
-
-## Build
-
-`go build ./cmd/go-form-sender`
