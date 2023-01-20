@@ -1,4 +1,5 @@
 name: Example access
+subject: Example email
 message: |
   Hi, can you give me the following access, please?
 
@@ -11,7 +12,5 @@ fields:
     default: me@example.com
   - name: Permission
     required: false
-sendto:
-  - name: debug
-    contacts:
-      - contact@example.com
+contacts:
+  - contact1@example.com
